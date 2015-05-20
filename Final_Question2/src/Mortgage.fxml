@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <!-- TODO Add Nodes -->
+  <children>
+    <TextField layoutX="274.0" layoutY="63.0" prefWidth="200.0" />
+    <Label layoutX="76.0" layoutY="69.0" text="Gross Income" />
+    <Label layoutX="76.0" layoutY="137.0" text="Monthly Debt" />
+    <Label layoutX="76.0" layoutY="199.0" text="Mortgage Interest Rate" />
+    <TextField layoutX="274.0" layoutY="127.0" prefWidth="200.0" />
+    <TextField layoutX="274.0" layoutY="199.0" prefWidth="200.0" />
+    <MenuButton layoutX="313.0" layoutY="250.0" mnemonicParsing="false" text="Years">
+      <items>
+        <MenuItem mnemonicParsing="false" text="!0" />
+        <MenuItem mnemonicParsing="false" text="15" />
+        <MenuItem mnemonicParsing="false" text="30" />
+      </items>
+    </MenuButton>
+    <Label layoutX="104.0" layoutY="254.0" text="Terms" />
+    <Label layoutX="85.0" layoutY="335.0" text="Down Payment" />
+    <TextField layoutX="266.0" layoutY="335.0" prefWidth="200.0" />
+    <Label layoutX="110.0" layoutY="413.0" text="Cost" />
+    <TextField layoutX="258.0" layoutY="410.0" prefWidth="200.0" />
+  </children>
+</AnchorPane>
